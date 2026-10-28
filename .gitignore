@@ -1,2 +1,13 @@
 .env
 data/raw/
+# PyCharm
+.idea/
+
+
+# Python
+__pycache__/
+.venv/
+
+# Large downloaded GTFS data
+/data/march_2025_gtfs.zip
+/data/march_2025_gtfs/
