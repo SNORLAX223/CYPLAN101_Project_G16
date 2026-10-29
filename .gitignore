@@ -1,7 +1,10 @@
 .env
+
+#Data
 data/raw/
+data/processed/
 # PyCharm
-.idea/
+.idea/ 
 
 
 # Python
@@ -11,3 +14,8 @@ __pycache__/
 # Large downloaded GTFS data
 /data/march_2025_gtfs.zip
 /data/march_2025_gtfs/
+
+
+# Jupyter and macOS clutter
+.ipynb_checkpoints/
+.DS_Store
