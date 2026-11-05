@@ -31,7 +31,7 @@ Running the Analysis
 
 1. Process the data
 
-Open notebooks/data_processing.ipynb and select Kernel → Restart & Run All.
+Open notebooks/data_pipeline.ipynb and select Kernel → Restart & Run All.
 
 This notebook runs the following files in order:
 
