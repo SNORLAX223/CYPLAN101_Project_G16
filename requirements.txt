@@ -1,0 +1,13 @@
+pandas
+numpy
+requests
+python-dotenv
+polars
+geopandas
+pygris
+matplotlib
+seaborn
+plotly
+nbformat
+ipykernel
+ipython
