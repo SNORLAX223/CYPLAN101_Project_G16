@@ -51,9 +51,9 @@ Figures and maps are exported to outputs/figures/ and outputs/maps/.
 
 Spatial Analysis
 
-The explicit spatial join is in notebooks/midterm_visuals.ipynb, using gpd.sjoin() to match Muni stops to Census tracts for a tract-income comparison.
+The spatial join is in notebooks/midterm_visuals.ipynb, using gpd.sjoin() to match Muni stops to Census tracts for a tract income comparison.
 
-The Census processing notebook also uses gpd.overlay() with 400-meter stop buffers to estimate surrounding demographics.
+The Census processing notebook also uses gpd.overlay() with 400 meter stop buffers to estimate surrounding demographics.
 
 Both spatial operations use EPSG:32610 (UTM Zone 10N).
 
