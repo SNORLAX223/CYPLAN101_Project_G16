@@ -1,17 +1,24 @@
 CY PLAN 101 — Group 16: Muni Reliability Analysis
 Analyzing Muni schedule reliability in San Francisco using March 2025 weekday transit observations and 2024 ACS Census data.
 Setup
+
 1. Install the required Python packages
 From the project root, run:
+
 pip install -r requirements.txt
-2. Set up the data
+3. Set up the data
 The project uses:
 511 SF Bay Transit Data — historical GTFS feed (operator_id=RG, historic=2025-03-so).
+
 2024 ACS 5-Year Census API — San Francisco Census tract demographics.
 Place the supplied GTFS files in data/march_2025_gtfs/.
+
 Create a .env file in the project root containing:
+
 API_KEY=your_511_api_key
+
 CENSUS_API_KEY=your_census_api_key
+
 API keys are required for downloads.
 Running the Analysis
 1. Process the data
