@@ -54,23 +54,22 @@ Spatial Analysis
 The spatial join is in notebooks/midterm_visuals.ipynb, using gpd.sjoin() to match Muni stops to Census tracts for a tract income comparison. Spatial operations use EPSG:32610 (UTM Zone 10N).
 
 Repository Structure
-- `data/` — Raw GTFS data and processed CSV files.
-  - `march_2025_gtfs/` — Original transit data.
-  - `processed/` — Cleaned and combined datasets.
-- `notebooks/` — Data processing and visualization notebooks.
-  - `data_exploration.ipynb` — GTFS data cleaning.
-  - `census_data_exploration.ipynb` — Census data processing.
-  - `combined_dataframe.ipynb` — Combines Muni and Census data.
-  - `data_pipeline.ipynb` — Runs processing notebooks sequentially.
-  - `midterm_visuals.ipynb` — Generates maps and charts, including the spatial join.
-- `src/` — Reusable Python functions.
-  - `__init__.py` — Package initialization.
-  - `utils.py` — Helper functions.
-- `visualizations/` — Exported figures and maps.
-  - `figures/` — Charts saved as PNG files.
-  - `maps/` — Interactive maps saved as HTML files.
-- `README.md` — Setup and execution instructions.
-- `requirements.txt` — Required Python packages.
-- `.gitignore` — Files excluded from GitHub.
+data/ — Raw GTFS data and processed datasets
 
-Large datasets excluded from GitHub are provided in the submission ZIP.
+notebooks/ — Data cleaning, processing, and visualization notebooks
+
+data_pipeline.ipynb — Runs the processing notebooks in order
+
+midterm_visuals.ipynb — Creates charts and maps, including the spatial join
+
+src/ — Reusable Python functions
+
+visualizations/figures/ — Saved charts
+
+visualizations/maps/ — Saved maps
+
+README.md — Instructions for running the project
+
+requirements.txt — Python packages needed to run the code
+
+Large datasets are included in the submission ZIP instead of GitHub.
