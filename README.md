@@ -54,6 +54,7 @@ Spatial Analysis
 The spatial join is in notebooks/midterm_visuals.ipynb, using gpd.sjoin() to match Muni stops to Census tracts for a tract income comparison. Spatial operations use EPSG:32610 (UTM Zone 10N).
 
 Repository Structure
+
 data/ — Raw GTFS data and processed datasets
 
 notebooks/ — Data cleaning, processing, and visualization notebooks
